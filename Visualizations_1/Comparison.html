@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap Visualization Dashboard</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../Assets/CSS/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../Assets/CSS/styles.css" media="screen">
+
+  </head>
+
+  <body>
+    <!-- Start of navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid navbar-custom">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="col-xs-9 phone-nav">
+              <a class="navbar-brand" href="../index_1.html" id="logo">Latitude</a>
+            </div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right navbar-right-custom">
+              <li class="dropdown">
+                <a href="../index_1.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                 <li><a href="MaxTemp.html">Max Temperature</a></li>
+                  <li><a href="Humidity.html">Humidity</a></li>
+                  <li><a href="Cloudiness.html">Cloudiness</a></li>
+                  <li><a href="WindSpeed.html">Wind Speed</a></li>
+                </ul>
+              </li>
+              <li><a href="Comparison.html">Comparison</a></li>
+              <li><a href="Data.html">Data</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div>
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- End of navbar -->
+      
+     <!--Bootstrap elements allor for your code to be formatted into a grid(rows and columns)-->
+    <!--First, make a container, use a div and then reference /use the class = "container"-->
+    <div class ="container">
+
+        <!--for each row, make a div that is gonna have class = "row"-->
+    <div class="row">
+      <h1 class = "description-header">Comparison : Latitude Vs X</h1>
+        <div class="col-md-6">
+          <!-- column of size 6 (1/2 of the row)-->
+
+            <h2 class = "comparison-header">Vs. MaxTemp</h2>
+            <a href = "../Assets/Images/Fig1.png">
+                <img src = "../Assets/Images/Fig1.png" title = "TempVsLat" alt = "TempVsLatVisual" width = "600" 
+                height="400" class = "comparison-image">
+            </a>
+        </div>
+        <div class="col-md-6">
+            <!-- column of size 6 (1/2 of the row)-->
+            <h2 class = "comparison-header">Vs. Humidity</h2>
+            <a href = "../Assets/Images/Fig2.png">
+                <img src = "../Assets/Images/Fig2.png" title = "HumidityVsLat" alt = "HumidityVsLatVisual" width = "600" 
+                height="400" class = "comparison-image">
+            </a>
+        </div>
+    </div><br/><!-- end of the first row-->
+   
+    <div class="row">
+        <div class="col-md-6">
+            <!-- column of size 6 (1/2 of the row)-->
+            <h2 class = "comparison-header">Vs. Cloudiness</h2>
+            <a href = "../Assets/Images/Fig3.png">
+                <img src = "../Assets/Images/Fig3.png" title = "CloudinessVsLat" alt = "CloudinessVsLatVisual" width = "600" 
+                height="400" class = "comparison-image">
+            </a>>
+        </div>
+        <div class="col-md-6">
+            <!-- column of size 6 (1/2 of the row)-->
+            <h2 class = "comparison-header">Vs. Wind Speed</h2>
+            <a href = "../Assets/Images/Fig4.png">
+                <img src = "../Assets/Images/Fig4.png" title = "WindSpeedVsLat" alt = "WindSpeedVsLatVisual" width = "600" 
+                height="400" class = "comparison-image">
+            </a>
+        </div>
+    </div><!-- end of the second row-->
+    </div> <!--end of container-->
+
+ 
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+  </body>
+
+</html>
