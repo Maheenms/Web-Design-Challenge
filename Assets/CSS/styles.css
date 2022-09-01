@@ -200,6 +200,10 @@ body {
   height: 140px;
 }
 
+.dataframe {
+  
+}
+
 .imageNav-photo:hover {
   /* Visuals */
   opacity: 0.6;
