@@ -201,7 +201,19 @@ body {
 }
 
 .dataframe {
-  
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.dataframe th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4aaaa5;
+  color: white;
 }
 
 .imageNav-photo:hover {
